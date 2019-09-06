@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Linkify Plus Plus Core</title>
+	<link rel="stylesheet" href="end2end.css">
+	<link rel="stylesheet" href="demo.css">
+	<script src="vue.js"></script>
+	<script src="linkify-plus-plus-core.min.js"></script>
+</head>
+<body>
+	<div class="container main">
+		<h2>Linkify Plus Plus Core</h2>
+		<div class="row">
+			<div class="col-xs-1-2">
+				<p>Input:</p>
+				<textarea id="input" v-model="text" class="form-control"></textarea>
+			</div>
+			<div class="col-xs-1-2">
+				<p>Output:</p>
+				<pre class="code"><code id="output"></code></pre>
+			</div>
+		</div>
+	</div>
+	<script src="demo.js"></script>
+</body>
+</html>
